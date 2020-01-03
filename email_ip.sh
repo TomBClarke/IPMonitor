@@ -1,7 +1,7 @@
 #!/bin/bash
 # Gets the internet IP according to the PI and emails it using MSMTP and the email_template.txt
 
-date=$(date +"%m-%d-%YT%T")
+date=$(date +"%d-%m-%YT%T")
 ip=$(./getip.sh)
 
 cp email_template.txt email_working.txt
